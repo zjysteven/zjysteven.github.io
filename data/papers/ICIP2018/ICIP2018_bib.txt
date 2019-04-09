@@ -1,0 +1,8 @@
+@inproceedings{zhang2018mintin,
+  title={MINTIN: Maxout-Based and Input-Normalized Transformation Invariant Neural Network},
+  author={Zhang, Jingyang and Jia, Kaige and Yang, Pengshuai and Qiao, Fei and Wei, Qi and Liu, Xinjun and Yang, Huazhong},
+  booktitle={2018 25th IEEE International Conference on Image Processing (ICIP)},
+  pages={3014--3018},
+  year={2018},
+  organization={IEEE}
+}
