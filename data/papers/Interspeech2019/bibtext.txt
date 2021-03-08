@@ -1,0 +1,9 @@
+@inproceedings{Zhang2019,
+  author={Jingyang Zhang and Wenhao Ding and Jintao Kang and Liang He},
+  title={{Multi-Scale Time-Frequency Attention for Acoustic Event Detection}},
+  year=2019,
+  booktitle={Proc. Interspeech 2019},
+  pages={3855--3859},
+  doi={10.21437/Interspeech.2019-1587},
+  url={http://dx.doi.org/10.21437/Interspeech.2019-1587}
+}
