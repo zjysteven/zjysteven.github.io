@@ -1,0 +1,6 @@
+@article{zhang2019data,
+  title={Data augmentation and prior knowledge-based regularization for sound event localization and detection},
+  author={Zhang, Jingyang and Ding, Wenhao and He, Liang},
+  journal={DCASE 2019 Detection and Classification of Acoustic Scenes and Events 2019 Challenge},
+  year={2019}
+}

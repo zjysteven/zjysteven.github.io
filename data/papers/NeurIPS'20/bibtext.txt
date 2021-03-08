@@ -1,0 +1,7 @@
+@article{yang2020dverge,
+  title={DVERGE: Diversifying Vulnerabilities for Enhanced Robust Generation of Ensembles},
+  author={Yang, Huanrui and Zhang, Jingyang and Dong, Hongliang and Inkawhich, Nathan and Gardner, Andrew and Touchet, Andrew and Wilkes, Wesley and Berry, Heath and Li, Hai},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
+  year={2020}
+}
