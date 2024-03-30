@@ -1,27 +1,25 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Jingyang Zhang",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "summary": "A ECE Ph.D. student at Duke University supervised by Dr. Yiran Chen and Dr. Hai (Helen) Li, working on topics including adversarial robustness and out-of-distribution detection."
   },
+  "education": [
+    {
+      "institution": "Duke University, Durham, NC, USA",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "PhD",
+      "startDate": "2019",
+      "endDate": "2024 (expected)"
+    },
+    {
+      "institution": "Tsinghua University, Beijing, China",
+      "area": "Electronic Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2015",
+      "endDate": "2019"
+    }
+  ],
   "work": [
     {
       "name": "Institute for Advanced Study, Princeton University",
@@ -42,19 +40,6 @@
       "endDate": "2015-07-01",
       "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
       "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
     }
   ],
   "awards": [
