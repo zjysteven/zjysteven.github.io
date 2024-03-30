@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - zjysteven
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - Jingkang50/OpenOOD
+  - zjysteven/DVERGE
+  - zjysteven/MIXOE
+  - zjysteven/PrivacyAttack_AT_FL
+  - linyueqian/SD-NAE
