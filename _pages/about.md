@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. candidate @ Duke
+subtitle: MLE @ Sciforium | Ph.D. @ Duke | B.Eng. @ Tsinghua
 
 profile:
   align: right
