@@ -1,0 +1,291 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="keywords" content="Jingyang Zhang, Virtue AI, Duke, Tsinghua, LLM safety, OOD detection">
+    <meta name="description" content="Jingyang Zhang's Homepage">
+    <link href="main.css" media="all" rel="stylesheet">
+    <link rel="icon" type="image/jpeg" href="figures/selfie.jpg">
+    <title>Jingyang Zhang</title>
+</head>
+
+<body>
+    <!-------------------------- About / Intro ----------------->
+    <table style="width:100%;background:#FFFFFF;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p style="text-align:center">
+                  <h1>Jingyang Zhang (张静阳)</h1>
+                </p>
+                <p>
+                  I'm a Research Scientist at <a href="https://www.virtueai.com/">Virtue AI</a>, working on LLM <strong>post-training</strong> (SFT + RL) for safety and guardrails. Before that, I was at <a href="https://sciforium.com/">Sciforium</a>, where I worked on <strong>pre-training</strong> of native multimodal foundation models from scratch. I received my Ph.D. from Duke ECE in 2024, advised by <a href="https://cei.pratt.duke.edu/people/yiran-chen">Prof. Yiran Chen</a> and <a href="https://cei.pratt.duke.edu/people/hai-helen-li">Prof. Hai (Helen) Li</a> — my dissertation focused on adversarial machine learning and out-of-distribution detection. I obtained my Bachelor's degree in 2019 from the Department of Electronic Engineering at Tsinghua University.
+                </p>
+                <p>
+                  I'm a big fan of open-source projects. I (try to) write technical blogs from time to time on <a href="https://medium.com/@zhjy227">Medium</a> and <a href="https://www.zhihu.com/people/zhang-jing-yang-54/posts">知乎</a>.
+                </p>
+                <p style="text-align:center">
+                  <a href="mailto:zhjy227@gmail.com">Email</a> &nbsp;/&nbsp;
+                  <a href="files/CV.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=f3DQwmgAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/zjysteven">GitHub</a> &nbsp;/&nbsp;
+                  <a href="https://www.linkedin.com/in/jingyang-zhang-765834107/">LinkedIn</a> &nbsp;/&nbsp;
+                  <a href="https://x.com/zjystevenfvv">Twitter</a>
+                  <!-- <a href="https://medium.com/@zhjy227">Medium</a> &nbsp;/&nbsp;
+                  <a href="https://www.zhihu.com/people/zhang-jing-yang-54/posts">知乎</a> -->
+                </p>
+              </td>
+              <td style="padding:2.5%;width:40%;max-width:40%">
+                <a href="figures/selfie.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="figures/selfie.jpg" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
+
+    <!-------------------------- Career ----------------->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <h2>Professional Experience</h2>
+              <div>
+                <p>
+                  <span style="float:right"><em>Aug. 2025 - Present</em></span>
+                  <strong><a href="https://www.virtueai.com/">Virtue AI</a></strong>, San Francisco, CA <br>
+                  Research Scientist - <strong>Post-Train, AI Safety</strong>
+                </p>
+                <ul style="clear:both">
+                  <li>Owned multiple end-to-end <strong>post-train pipelines (SFT + RL)</strong> for various guardrails (prompt, action, code vulnerability), including data curation, reasoning trace construction, training, evaluation, and efficiency improvements.</li>
+                  <li>Led <strong>LLM safety evaluation and red-teaming</strong> for real-world enterprise agents, delivering actionable failure analysis across large-scale deployments (Fortune 500-level customers and frontier labs).</li>
+                  <li>Designed and deployed <strong>agent emulation and adversarial testing frameworks</strong>, including co-developing an internal framework featuring large-scale real-world sandbox environments to study emergent behavior, misuse risks, and failure modes in tool-using LLM agents.</li>
+                </ul>
+
+                <p>
+                  <span style="float:right"><em>Jan. 2025 - Aug. 2025</em></span>
+                  <strong><a href="https://sciforium.com/">Sciforium</a></strong>, Mountain View, CA <br>
+                  Research Scientist - <strong>Foundation Models, Pre-Train</strong>
+                </p>
+                <ul style="clear:both">
+                  <li>Led design of a <strong>purpose-built native multimodal LLM</strong> treating <strong>text, image, video, and audio as first-class modalities</strong> — unified byte-level representation with no modality-specific encoders, targeting coherent cross-modal understanding and generation.</li>
+                  <li>Designed <strong>model architectures and efficient components</strong> (non-complex RoPE, optimized KV cache, FP8 GEMM) enabling scalable training and inference across all modalities.</li>
+                  <li>Built <strong>end-to-end pretraining pipelines</strong> with scalable data transformation from raw multimodal inputs (text, image, video, audio) to unified byte representations.</li>
+                  <li>Conducted <strong>distributed pretraining across 64 GPUs on 8 nodes</strong> using JAX.</li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+        </tbody></table>
+
+    <!-------------------------- Education ----------------->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tbody><tr>
+            <td width="100%" valign="middle">
+              <h2>Education</h2>
+              <table>
+                <tbody><tr>
+                    <td width="90%">
+                        <br>
+                        <strong>Ph.D.</strong> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Duke University, Durham, NC, U.S.  <br>
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp Electrical and Computer Engineering <br>
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp <em>Aug. 2019 - May. 2024</em>
+                    </td>
+                    <td width="10%">
+                      <img src="figures/duke.png" width="90%" style="display: block; margin-left: auto; margin-right: auto;">
+                    </td>
+                  </tr>
+                  <tr>
+                  <td width="90%">
+                      <br>
+                      <strong> B.Eng. </strong> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Tsinghua University, Beijing, China. <br>
+                      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp Electronic Engineering <br>
+                      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp <em>Aug. 2015 - Jul. 2019</em> <br>
+                  </td>
+                  <td width="10%">
+                    <img src="figures/tsinghua.png" width="90%" style="display: block; margin-left: auto; margin-right: auto;">
+                  </td>
+                </tr>
+                <tr>
+                </tr>
+              </tbody></table>
+            </td>
+          </tr>
+        </tbody></table>
+
+    <!-------------------------- Open-source Projects ----------------->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <h2>Open-source Projects</h2>
+              <ul>
+                <li>
+                  <p>
+                    <strong><a href="https://github.com/Gen-Verse/OpenClaw-RL">OpenClaw-RL</a></strong> (<em>4k+ stars</em>)
+                    <br>
+                    Training agents simply by talking through OpenClaw setup. I enabled LoRA training for resource-constrained settings.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong><a href="https://github.com/Jingkang50/OpenOOD">OpenOOD</a></strong> (<em>1k+ stars</em>)
+                    <br>
+                    The largest and most well-recognized codebase for OOD detection on image data. I am one of the main contributors and led the v1.5 release (40+ SOTA methods integration at ImageNet-level scale).
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong><a href="https://github.com/zjysteven/lmms-finetune">lmms-finetune</a></strong> (<em>370+ stars</em>)
+                    <br>
+                    A lightweight codebase for fine-tuning various vision LLMs, including LLaVA-Next, LLaVA-OneVision, Qwen-VL etc.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong><a href="https://github.com/zjysteven/VLM-Visualizer">VLM-Visualizer</a></strong> (<em>290+ stars</em>)
+                    <br>
+                    Visualizing the attention of vision LLMs.
+                  </p>
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </tbody></table>
+
+    <!-------------------------- Publications ----------------->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <h2>Selected Publications (<a href="https://scholar.google.com/citations?user=f3DQwmgAAAAJ">Full Publications</a>)</h2>
+
+              <table id="tbPublications" width="100%">
+                <tr>
+                  <td><a href="https://arxiv.org/abs/2404.02936">
+                      <strong>Min-K%++: Improved Baseline for Detecting Pre-Training Data from Large Language Models</strong>
+                    </a> <br>
+                    <strong>Jingyang Zhang*</strong>, Jingwei Sun*, Eric Yeats, Yang Ouyang, Martin Kuo, Jianyi Zhang, Hao Yang, Hai Li <br>
+                    <strong><em>ICLR'25 (Spotlight)</em></strong>
+                    [<a href="https://openreview.net/forum?id=ZGkfoufDaU">Paper</a>]
+                    [<a href="https://github.com/zjysteven/mink-plus-plus">Code</a>]
+                    [<a href="https://zjysteven.github.io/mink-plus-plus/">Project Page</a>]
+                  </td>
+                </tr>
+              </table>
+
+              <table id="tbPublications" width="100%">
+                <tr>
+                  <td><a href="https://arxiv.org/abs/2404.02936">
+                      <strong>Proactive privacy amnesia for large language models: Safeguarding PII with negligible impact on model utility</strong>
+                    </a> <br>
+                    Martin Kuo*, <strong>Jingyang Zhang*</strong>, Jianyi Zhang, Minxue Tang, Louis DiValentin, Aolin Ding, Jingwei Sun, William Chen, Amin Hass, Tianlong Chen, Yiran Chen, Hai Li <br>
+                    <strong><em>ICLR'25</em></strong>
+                    [<a href="https://openreview.net/forum?id=io8uRPYktn&nesting=2&sort=date-desc">Paper</a>]
+                    [<a href="https://github.com/MartinKuo427/PPA">Code</a>]
+                    [<a href="https://ppa-iclr2025.my.canva.site/">Project Page</a>]
+                  </td>
+                </tr>
+              </table>
+
+              <table id="tbPublications" width="100%">
+                <tr>
+                  <td><a href="https://openreview.net/forum?id=GazlTYxZss">
+                      <strong>Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems</strong>
+                    </a> <br>
+                    Shaokun Zhang, Ming Yin, Jieyu Zhang, Jiale Liu, Zhiguang Han, <strong>Jingyang Zhang</strong>, Beibin Li, Chi Wang, Huazheng Wang, Yiran Chen, Qingyun Wu <br>
+                    <strong><em>ICML'25 (Spotlight)</em></strong>
+                    [<a href="https://openreview.net/forum?id=GazlTYxZss">Paper</a>][<a href="https://github.com/mingyin1/Agents_Failure_Attribution">Code</a>][<a href="https://ag2ai.github.io/Agents_Failure_Attribution/">Project Page</a>]
+                  </td>
+                </tr>
+              </table>
+              
+              
+              
+              <table id="tbPublications" width="100%">
+                <tr>
+                  <td><a href="https://arxiv.org/abs/2403.20331">
+                      <strong>Unsolvable Problem Detection: Evaluating Trustworthiness of Vision Language Models</strong>
+                    </a> <br>
+                    Atsuyuki Miyai, Jingkang Yang, <strong>Jingyang Zhang</strong>, Yifei Ming, Qing Yu, Go Irie, Yixuan Li, Hai Li, Ziwei Liu, Kiyoharu Aizawa <br>
+                    <strong><em>ACL'25</em></strong>
+                    [<a href="https://arxiv.org/abs/2403.20331">Paper</a>]
+                    [<a href="https://github.com/AtsuMiyai/UPD">Code</a>]
+                  </td>
+                </tr>
+              </table>
+
+              <table id="tbPublications" width="100%">
+                <tr>
+                  <td><a href="https://arxiv.org/abs/2306.09301">
+                      <strong>OpenOOD v1.5: Enhanced Benchmark for Out-of-Distribution Detection</strong>
+                    </a> <br>
+                    <strong>Jingyang Zhang</strong>, Jingkang Yang, Pengyun Wang, Haoqi Wang, Yueqian Lin, Haoran Zhang, Yiyou Sun, Xuefeng Du, Kaiyang Zhou, Wayne Zhang, et al. <br>
+                    <strong><em>DMLR (Journal of Data-Centric Machine Learning), NeurIPS'23 Workshop on Distribution Shifts (Oral)</em></strong>
+                    [<a href="https://arxiv.org/pdf/2306.09301">Paper</a>]
+                    [<a href="https://github.com/Jingkang50/OpenOOD">Code</a>]
+                  </td>
+                </tr>
+              </table>
+
+              <table id="tbPublications" width="100%">
+                <tr>
+                  <td><a href="https://openaccess.thecvf.com/content/WACV2023/html/Zhang_Mixture_Outlier_Exposure_Towards_Out-of-Distribution_Detection_in_Fine-Grained_Environments_WACV_2023_paper.html">
+                      <strong>Mixture Outlier Exposure: Towards Out-of-Distribution Detection in Fine-Grained Environments</strong>
+                    </a> <br>
+                    <strong>Jingyang Zhang</strong>, Nathan Inkawhich, Randolph Linderman, Yiran Chen, Hai Li <br>
+                    <strong><em>WACV'23</em></strong>
+                    [<a href="https://openaccess.thecvf.com/content/WACV2023/html/Zhang_Mixture_Outlier_Exposure_Towards_Out-of-Distribution_Detection_in_Fine-Grained_Environments_WACV_2023_paper.html">Paper</a>]
+                    [<a href="https://github.com/zjysteven/MixOE">Code</a>]
+                  </td>
+                </tr>
+              </table>
+
+              <table id="tbPublications" width="100%">
+                <tr>
+                  <td><a href="https://openaccess.thecvf.com/content/CVPR2022W/ArtOfRobust/papers/Zhang_Privacy_Leakage_of_Adversarial_Training_Models_in_Federated_Learning_Systems_CVPRW_2022_paper.pdf">
+                      <strong>Privacy Leakage of Adversarial Training Models in Federated Learning Systems</strong>
+                    </a> <br>
+                    <strong>Jingyang Zhang</strong>, Yiran Chen, Hai Li <br>
+                    <strong><em>CVPR'22 Workshop on Art of Robustness (Oral)</em></strong>
+                    [<a href="https://openaccess.thecvf.com/content/CVPR2022W/ArtOfRobust/papers/Zhang_Privacy_Leakage_of_Adversarial_Training_Models_in_Federated_Learning_Systems_CVPRW_2022_paper.pdf">Paper</a>]
+                    [<a href="https://github.com/zjysteven/PrivacyAttack_AT_FL">Code</a>]
+                  </td>
+                </tr>
+              </table>
+
+              <!-- <table id="tbPublications" width="100%">
+                <tr>
+                  <td><a href="https://ieeexplore.ieee.org/abstract/document/9695222">
+                      <strong>Improving Out-of-Distribution Detection by Learning from the Deployment Environment</strong>
+                    </a> <br>
+                    Nathan Inkawhich, <strong>Jingyang Zhang</strong>, Eric K. Davis, Ryan Luley, Yiran Chen <br>
+                    <em>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (<strong>IEEE J-STARS</strong>)</em>, 2022.
+                    [<a href="https://ieeexplore.ieee.org/abstract/document/9695222">Paper</a>]
+                  </td>
+                </tr>
+              </table> -->
+
+              <table id="tbPublications" width="100%">
+                <tr>
+                  <td><a href="https://proceedings.neurips.cc/paper/2020/hash/3ad7c2ebb96fcba7cda0cf54a2e802f5-Abstract.html">
+                      <strong>DVERGE: Diversifying Vulnerabilities for Enhanced Robust Generation of Ensembles</strong>
+                    </a> <br>
+                    <strong>Jingyang Zhang*</strong>, Huanrui Yang*, Hongliang Dong*, Nathan Inkawhich, Andrew Gardner, Andrew Touchet, Wesley Wilkes, Heath Berry, Hai Li <br>
+                    <strong><em>NeurIPS'20 (Oral)</em></strong>
+                    [<a href="https://proceedings.neurips.cc/paper_files/paper/2020/file/3ad7c2ebb96fcba7cda0cf54a2e802f5-Paper.pdf">Paper</a>]
+                    [<a href="https://github.com/zjysteven/DVERGE">Code</a>]
+                  </td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+        </tbody></table>
+
+        <p align="center">
+          <font color="#999999">Last update: April 2026</font>
+        </p>
+
+        </td>
+      </tr>
+    </tbody></table>
+</body>
+</html>
